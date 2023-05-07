@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root {
+    --main-color: #E0C670;
+    --second-color: white;
+    --body-color: #000000;
+
+    --main-font: 'Roboto Condensed', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--body-color);
+    font-family: var(--main-font);
+}
+
+section {
+    margin-top: 150px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .nav-wrapper {
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-link {
+    color: white;
+    font-size: 18px;
+}
+
+.nav-wrapper .btn-contact-us {
+    padding: 5px 15px;
+    background-color: var(--main-color);
+    color: var(--body-color);
+    border-radius: 20px;
+}
+
+.home .home-wrapper {
+    margin: auto;
+    margin-top: -44px;
+}
+
+.we-are {
+    display: flex;
+    justify-content: center;
+    color: var(--second-color);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    color: var(--second-color);
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.gambar-hero {
+    margin-top: 14px;
+}
+
+.about-us {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us .judul {
+    font-size: 48px;
+    color: var(--second-color);
+    max-width: 318px;
+}
+
+.about-us .ket-judul {
+    font-size: 18px;
+    color: var(--second-color);
+    font-weight: 100;
+    max-width: 903px;
+}
+
+.jasa-wrapper {
+    margin: auto;
+}
+
+.text-berjalan {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.text-berjalan .textmarq {
+    padding: 22px;
+    background-color: var(--main-color);
+    color: var(--body-color);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.jasa-wrapper .header-jasa {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--second-color);
+    display: flex;
+    justify-content: center;
+}
+
+.list-jasa {
+    margin: auto;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.jasa-wrapper .list-jasa .col-1 .body-card {
+    border: 2px solid #E0C670;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 492px;
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+.col-1 .body-card .gmbr-card-shopee {
+    width: 120px;
+    height: 120px;
+    background-color: var(--main-color);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.col-1 .body-card .gmbr-card-tiktok {
+    padding: 9px 21px;
+    background-color: var(--main-color);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.col-1 .body-card .gmbr-card-creative {
+    padding: 19px;
+    background-color: var(--main-color);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.col-1 .body-card .gmbr-card-ads {
+    padding: 19px;
+    background-color: var(--main-color);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.col-1 .body-card .ket-jasa {
+    margin-left: 24px;
+}
+
+.col-1 .body-card .ket-jasa .judul-jasa {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.col-1 .body-card .ket-jasa .par-jasa {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.recent-project {
+    margin: auto;
+}
+
+.recent-project .header-recent {
+    margin: auto;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--second-color);
+    display: flex;
+    justify-content: center;
+}
+
+.recent-project .recent-project-wrapper {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent-project-wrapper .jud-project {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.recent-project-wrapper .par-project {
+    margin-top: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--second-color);
+    max-width: 241px;
+}
+
+.header-client-feedback {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: var(--second-color);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.client-feedback-wrapper {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.client-feedback-wrapper .card-feedback {
+    border: solid 2px var(--second-color);
+    width: 279px;
+    height: 152px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.card-feedback .prof-feedback {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 12px;
+    align-items: center;
+}
+
+.card-feedback .prof-feedback .nama-client {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.card-feedback .prof-feedback .prof-product {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.card-feedback .testimoni{
+    color: var(--second-color);
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 768px) {}
